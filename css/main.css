@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Halvetica, Arial, sans-serif;
+    background: orange;
+
+}
+
+.similar{
+    background: #D51;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.formula{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    grid-gap: 15px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+input{
+    ont-family: Halvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    padding: 10px;
+    margin: 10px;
+    height: 38px;
+    width: 600px;
+    background: white;
+    border: solid #D51;
+    box-shadow: 0px 1px 11.04px 0.96px rgb(0 0 0 / 15%);
+    }
+
+.label{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    grid-gap: 15px;
+    row-gap: 15px;
+    column-gap: 15px;
+}
+
+button{
+    font-family: Halvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 14px;
+    margin: 10px;
+    height: 58px;
+    width: 620px;
+    background: red;
+    border: solid white;
+    padding: 10px;
+
+}
+
+.result{
+    color: white;
+    font-size: 25px;
+    font-weight: 700px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
